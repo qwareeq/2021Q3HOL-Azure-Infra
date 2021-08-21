@@ -2,23 +2,18 @@
 environment = "2021Q3HOL"
 create-rgs = true // crete new resource groups for more control of the budgets
 
-azure_client_id       = "YOUR-APP-ID"
-azure_client_secret   = "YOUR-APP-PASSWORD"
-azure_subscription_id = "YOUR-SUBCRIPTION-ID"
-azure_tenant_id       = "YOUR-TENANT-ID"
+azure_client_id       = "e5252d18-3deb-446f-ac42-6d1ba1c1476e"
+azure_client_secret   = "8yF_l44.PFd6p6QgiGnt1y~KOelu85ZeFl"
+azure_subscription_id = "e66a3751-c84f-4ce0-89bc-e2559b3cfa3d"
+azure_tenant_id       = "3e04753a-ae5b-42d4-a86d-d6f05460f9e4"
 
 network-vnet-cidr = "10.0.0.0/24"
 jump-subnet-cidr  = "10.0.0.0/25"
 linux-subnet-cidr = "10.0.0.128/25"
 
 admin-username = "labadmin"
-admin-password = "YOUR-Strong-password"
+admin-password = "P@$$w0rd2020"
 
 rg_list = { // need RG name to put here
-  "VN" = 4,
-  "TH" = 5,
-  "MY" = 5,
-  "PH" = 4,
-  "ID" = 4,
-  "SG" = 7,
+  "GCC" = 4,
 }
